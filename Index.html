@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Professional E-Portfolio | Charisse Kaye G. Reyes</title>
+
+<style>
+:root {
+    --primary: #4f46e5;
+    --secondary: #0f172a;
+    --accent: #eef2ff;
+    --text: #1f2937;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: var(--accent);
+    color: var(--text);
+    line-height: 1.7;
+}
+
+/* Header */
+.hero {
+    background: linear-gradient(135deg, var(--secondary), var(--primary));
+    color: white;
+    padding: 90px 12%;
+}
+
+.hero-content {
+    max-width: 900px;
+}
+
+.hero h1 {
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* Profile strip */
+.profile {
+    background: purple;
+    margin: -50px auto 60px;
+    max-width: 900px;
+    padding: 35px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 30px;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.12);
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile h2 {
+    color: var(--primary);
+}
+
+/* Section */
+section {
+    max-width: 900px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+}
+
+section h3 {
+    color: var(--secondary);
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+    background: purple;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+/* Timeline */
+.timeline {
+    border-left: 4px solid var(--primary);
+    padding-left: 25px;
+}
+
+.timeline-item {
+    margin-bottom: 25px;
+}
+
+/* Footer */
+footer {
+    background: var(--secondary);
+    color: purple;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <div class="hero-content">
+        <h1>Charisse Kaye G. Reyes</h1>
+        <p>Student | Aspiring Professional | Philippines</p>
+    </div>
+</div>
+
+<!-- PROFILE -->
+<div class="profile">
+    <div class="avatar">CR</div>
+    <div>
+        <h2>Professional Summary</h2>
+        <p>
+            I am Charisse Kaye G. Reyes, a dedicated and goal-driven student with a
+            strong interest in personal growth and academic excellence. This
+            e-portfolio is a curated collection of my academic background,
+            competencies, values, training, and experiences that reflect my
+            readiness for future professional opportunities.
+        </p>
+    </div>
+</div>
+
+<!-- PERSONAL DETAILS -->
+<section>
+    <h3>Personal Information</h3>
+    <div class="card grid">
+        <p><strong>Full Name:</strong> Charisse Kaye G. Reyes</p>
+        <p><strong>Status:</strong> Student</p>
+        <p><strong>Nationality:</strong> Filipino</p>
+        <p><strong>Location:</strong> Philippines</p>
+        <p><strong>Email:</strong> charissekayereyes@gmail.com</p>
+        <p><strong>Academic Year:</strong> 2025–2026</p>
+    </div>
+</section>
+
+<!-- VALUES -->
+<section>
+    <h3>Core Values & Beliefs</h3>
+    <div class="card">
+        <ul>
+            <li>Integrity, honesty, and ethical behavior</li>
+            <li>Continuous learning and improvement</li>
+            <li>Responsibility and professionalism</li>
+            <li>Respect, collaboration, and empathy</li>
+        </ul>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section>
+    <h3>Skills & Competencies</h3>
+    <div class="grid">
+        <div class="card">
+            <h4>Soft Skills</h4>
+            <ul>
+                <li>Communication and interpersonal skills</li>
+                <li>Time management and organization</li>
+                <li>Critical thinking and problem-solving</li>
+                <li>Adaptability and teamwork</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h4>Technical Skills</h4>
+            <ul>
+                <li>Basic computer operations</li>
+                <li>Microsoft Office tools</li>
+                <li>Basic HTML & CSS</li>
+                <li>Online research and documentation</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section>
+    <h3>Educational Background</h3>
+    <div class="card timeline">
+        <div class="timeline-item">
+            <p><strong>Course / Program:</strong> (BS Computer Science)</p>
+            <p><strong>School:</strong> (Sultan Kudarat State University)</p>
+            <p><strong>Year Level:</strong> (1st year)</p>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section>
+    <h3>Projects & Experiences</h3>
+    <div class="grid">
+        <div class="card">
+            <h4>Academic Projects</h4>
+            <p>
+                <strong>Description:</strong> Completed research papers, reports, and
+                academic presentations that required critical analysis and effective
+                communication.
+            </p>
+            <p>
+                <strong>Skills Used:</strong> Research, Writing, Time Management,
+                Critical Thinking
+            </p>
+        </div>
+
+        <div class="card">
+            <h4>E-Portfolio Development</h4>
+            <p>
+                <strong>Description:</strong> Designed and developed a professional
+                e-portfolio to showcase academic achievements and competencies.
+            </p>
+            <p>
+                <strong>Skills Used:</strong> HTML, CSS, Creativity, Organization
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- GOALS -->
+<section>
+    <h3>Career Goals</h3>
+    <div class="card">
+        <p>
+            My long-term goal is to become a skilled and responsible professional who
+            continuously seeks growth and contributes positively to the workplace
+            and the community.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>Charisse Kaye G. Reyes | Professional E-Portfolio</p>
+</footer>
+
+</body>
+</html>
